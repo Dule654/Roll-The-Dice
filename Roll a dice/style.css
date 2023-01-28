@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(#e66465, #9198e5);
+    width: 100vw;
+    min-height: 100vh;
+    padding: 5% 0%;
+    overflow-y: hidden;
+}
+.insertName{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding: 2% 5%;
+}
+.insertName input{
+    display: block;
+    margin-bottom: 5%;
+    height: 25px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 3%;
+}
+.insertName button{
+    padding: 4px 16px;
+    border-radius: 50px;
+    background-color:  rgba(245, 245, 245, 0.808);
+}
+
+.dice{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/six.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    position: absolute;
+    top: 387px;
+    left: 908px;
+    z-index: 2;
+}
+section{
+    width: 50%;
+    height: 600px;
+    border-radius: 20px;
+    margin: auto;
+    color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.37);
+    padding: 0% 0%;
+    display: flex;
+    position: relative;
+
+}
+section button{
+    position: absolute;
+}
+.NG{
+    top: 30px;
+    left: 44.5%;
+    padding: 5px 10px;
+}
+.RD{
+    top: 80%;
+    left: 44.5%;
+    padding: 5px 10px;
+}
+.H{
+    top: 86%;
+    left: 46.4%;
+    padding: 5px 10px;
+}
+section .left {
+    width: 50%;
+    text-align: center;
+    padding: 10% 15%;
+    line-height: 50px;
+    border-radius: 20px;
+}
+section .right {
+    width: 50%;
+    text-align: center;
+    padding: 10% 15%;
+    line-height: 50px;
+    border-radius: 20px;
+}
+section h1{
+    font-size: 32px;
+}
+section p{
+    font-size: 64px;
+    margin: 20% 0%;
+    color: rgb(218, 19, 128);
+}
+.display{
+    border-radius: 10px;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(218, 19, 128);
+    color: whitesmoke;
+
+}
+.display h2{
+    font-weight: 100;
+    font-size: 18px;
+}
+.display h3{
+    font-size: 32px;
+    font-weight: 100;
+}
